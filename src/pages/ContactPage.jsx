@@ -159,8 +159,8 @@ function ContactPage() {
                   {t('contact.phone')}
                 </h3>
                 <p className="text-gray-600">
-                  {t('contact.mainPhone')}: +966 12 345 6789<br />
-                  {t('contact.fax')}: +966 12 345 6790
+                  {t('contact.mainPhone')}: +961 1 123 456<br />
+                  {t('contact.fax')}: +961 1 123 457
                 </p>
               </div>
 

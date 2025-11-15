@@ -7,7 +7,7 @@ import LanguageSwitcher from './LanguageSwitcher'
 // وظيفة: شريط التنقل العلوي - يحتوي على روابط الصفحات
 function Navbar() {
   const { t, language } = useTranslation()
-  const { user, logout, isAuthenticated, isAdmin } = useAuth()
+  const { user, logout, isAuthenticated, isAdmin, isStudent } = useAuth()
   const navigate = useNavigate()
   // حالة: تتبع المسار الحالي لتحديد الرابط النشط
   const location = useLocation()

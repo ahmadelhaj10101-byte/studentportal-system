@@ -99,7 +99,7 @@ export const ar = {
     enterEmail: 'example@email.com',
     enterSubject: 'موضوع الرسالة',
     enterMessage: 'اكتب رسالتك هنا...',
-    addressText: 'الجامعة، شارع الملك فهد\nالمملكة العربية السعودية\nالرمز البريدي: 12345',
+    addressText: 'الجامعة، شارع الحمرا\nبيروت، لبنان\nالرمز البريدي: 1107',
     mainPhone: 'الهاتف الرئيسي',
     fax: 'الفاكس',
     generalEmail: 'البريد العام',
@@ -328,7 +328,7 @@ export const ar = {
     email: 'البريد الإلكتروني',
     phone: 'الهاتف',
     address: 'العنوان',
-    addressText: 'الجامعة، المملكة العربية السعودية',
+    addressText: 'الجامعة، بيروت، لبنان',
     copyright: 'جميع الحقوق محفوظة.'
   }
 }

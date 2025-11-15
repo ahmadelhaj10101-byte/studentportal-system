@@ -99,7 +99,7 @@ export const en = {
     enterEmail: 'example@email.com',
     enterSubject: 'Message subject',
     enterMessage: 'Write your message here...',
-    addressText: 'University, King Fahd Street\nSaudi Arabia\nPostal Code: 12345',
+    addressText: 'University, Hamra Street\nBeirut, Lebanon\nPostal Code: 1107',
     mainPhone: 'Main Phone',
     fax: 'Fax',
     generalEmail: 'General Email',
@@ -328,7 +328,7 @@ export const en = {
     email: 'Email',
     phone: 'Phone',
     address: 'Address',
-    addressText: 'University, Saudi Arabia',
+    addressText: 'University, Beirut, Lebanon',
     copyright: 'All rights reserved.'
   }
 }
