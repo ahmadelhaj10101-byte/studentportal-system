@@ -1,0 +1,95 @@
+// ملف الفعاليات الوهمية
+
+export const events = [
+  {
+    id: 1,
+    title: 'يوم العلوم والتكنولوجيا',
+    titleEn: 'Science and Technology Day',
+    description: 'فعالية سنوية تعرض أحدث الابتكارات في مجال العلوم والتكنولوجيا. ستشمل معارض ومحاضرات وورش عمل.',
+    descriptionEn: 'Annual event showcasing the latest innovations in science and technology. Will include exhibitions, lectures, and workshops.',
+    date: '2024-02-10',
+    time: '09:00',
+    location: 'القاعة الكبرى',
+    locationEn: 'Main Hall',
+    capacity: 500,
+    registered: 320,
+    category: 'academic',
+    status: 'upcoming'
+  },
+  {
+    id: 2,
+    title: 'معرض التوظيف',
+    titleEn: 'Career Fair',
+    description: 'معرض للتوظيف يجمع بين الطلاب وأكبر الشركات في المنطقة. فرصة ممتازة للتواصل والتوظيف.',
+    descriptionEn: 'Career fair bringing together students and the largest companies in the region. Great opportunity for networking and employment.',
+    date: '2024-02-15',
+    time: '10:00',
+    location: 'قاعة المؤتمرات',
+    locationEn: 'Conference Hall',
+    capacity: 300,
+    registered: 280,
+    category: 'career',
+    status: 'upcoming'
+  },
+  {
+    id: 3,
+    title: 'محاضرة عن الأمن السيبراني',
+    titleEn: 'Cybersecurity Lecture',
+    description: 'محاضرة يقدمها خبير في الأمن السيبراني حول أحدث التهديدات والحلول في مجال الأمن المعلوماتي.',
+    descriptionEn: 'Lecture by a cybersecurity expert on the latest threats and solutions in information security.',
+    date: '2024-01-30',
+    time: '14:00',
+    location: 'قاعة المحاضرات 101',
+    locationEn: 'Lecture Hall 101',
+    capacity: 200,
+    registered: 150,
+    category: 'academic',
+    status: 'upcoming'
+  },
+  {
+    id: 4,
+    title: 'ورشة تطوير تطبيقات الويب',
+    titleEn: 'Web Development Workshop',
+    description: 'ورشة عملية لتعلم تطوير تطبيقات الويب الحديثة باستخدام React و Node.js.',
+    descriptionEn: 'Hands-on workshop to learn modern web application development using React and Node.js.',
+    date: '2024-02-05',
+    time: '13:00',
+    location: 'مختبر الحاسوب 3',
+    locationEn: 'Computer Lab 3',
+    capacity: 50,
+    registered: 45,
+    category: 'workshop',
+    status: 'upcoming'
+  },
+  {
+    id: 5,
+    title: 'حفل التخرج',
+    titleEn: 'Graduation Ceremony',
+    description: 'حفل التخرج السنوي لطلاب دفعة 2024. سيتم تكريم الخريجين المتميزين.',
+    descriptionEn: 'Annual graduation ceremony for the class of 2024. Outstanding graduates will be honored.',
+    date: '2024-05-20',
+    time: '18:00',
+    location: 'المسرح الرئيسي',
+    locationEn: 'Main Theater',
+    capacity: 1000,
+    registered: 850,
+    category: 'ceremony',
+    status: 'upcoming'
+  },
+  {
+    id: 6,
+    title: 'يوم الرياضة الجامعي',
+    titleEn: 'University Sports Day',
+    description: 'فعالية رياضية تشمل مسابقات في مختلف الألعاب الرياضية. جميع الطلاب مرحب بهم للمشاركة.',
+    descriptionEn: 'Sports event including competitions in various sports. All students are welcome to participate.',
+    date: '2024-01-12',
+    time: '08:00',
+    location: 'الملعب الرياضي',
+    locationEn: 'Sports Stadium',
+    capacity: 800,
+    registered: 600,
+    category: 'sports',
+    status: 'past'
+  }
+]
+
