@@ -49,7 +49,7 @@ function Footer() {
             <h3 className="text-xl font-bold mb-4">{t('footer.contactInfo')}</h3>
             <ul className="space-y-2 text-gray-300">
               <li>{t('footer.email')}: info@studentportal.edu</li>
-              <li>{t('footer.phone')}: +966 12 345 6789</li>
+              <li>{t('footer.phone')}: +961 1 123 456</li>
               <li>{t('footer.address')}: {t('footer.addressText')}</li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ function Footer() {
 
         {/* حقوق النشر */}
         <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400">
-          <p>&copy; 2024 Student Portal. {t('footer.copyright')}</p>
+          <p>&copy; 2025 Student Portal. {t('footer.copyright')}</p>
         </div>
       </div>
     </footer>
